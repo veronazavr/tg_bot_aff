@@ -11,7 +11,7 @@ file = open('support.txt', 'r', encoding='utf-8')
 support = file.read().split('\n')
 file.close()
 
-bot = telebot.TeleBot('6640190707:AAFdcztStYE0YzgFqFdRpwWTgsJIMdSKhG0')
+bot = telebot.TeleBot('TOKEN')
 
 @bot.message_handler(commands=['start'])
 def start(message):
